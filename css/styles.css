@@ -1,0 +1,101 @@
+a {
+  color: #A9A9A9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+figure {
+  display: block;
+  margin:0;
+  padding: 0;
+  width: 100$;
+}
+
+p {
+  font-family: 'helvetica';
+  font-size: 30px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75);
+}
+
+.bgcolor {
+  background-color: #A9A9A9;
+}
+
+.clearfix::after {
+  clear:both; content: "";
+  display: block; 
+}
+
+.header {
+    background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.12);
+    font-size: 30px;
+    color: #A9A9A9;
+    position: fixed;
+    width: 100%;
+}
+
+.headpadding {
+  padding-top: 150px;
+}
+
+.imgwidth{
+  width: 100%;
+}
+
+nav ul{
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+nav li{
+  list-style: none;
+  display: inline;
+  padding-left: 50px;
+}
+
+nav li:first-child {
+  padding-left: 0;
+}
+
+.page-container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.pig {
+  display: block;
+  margin:0 auto;
+}
+
+.page {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  font-size: 60px;
+}
+
+.sausagehome {
+  display: block;
+  margin:0 auto;
+  max-width: 900px;
+}
+
+.wholelogo {
+  max-width: 500px;
+}
+
+
